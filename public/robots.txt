@@ -1,0 +1,6 @@
+Sitemap: https://bhavya.dev/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
