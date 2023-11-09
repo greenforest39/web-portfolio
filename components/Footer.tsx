@@ -19,8 +19,8 @@ import {
   IconButton,
 } from "@material-ui/core";
 import MailIcon from "@material-ui/icons/Mail";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import TelegramIcon from "@material-ui/icons/Telegram";
+// import GitHubIcon from "@material-ui/icons/GitHub";
+// import TelegramIcon from "@material-ui/icons/Telegram";
 import SendIcon from "@material-ui/icons/Send";
 import CloseIcon from "@material-ui/icons/Close";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
@@ -161,7 +161,7 @@ function Footer() {
             >
               <Grid container className={classes.leftContainer}>
                 <Grid item md={6} sm={6} className={classes.iconsGrid}>
-                  <Link
+                  {/* <Link
                     className={classes.socialItem}
                     href="https://github.com/BhavyaCodes"
                     target="_blank"
@@ -183,7 +183,7 @@ function Footer() {
                     <TelegramIcon className={classes.icon} fontSize="large" />
 
                     <Typography>Telegram</Typography>
-                  </Link>
+                  </Link> */}
 
                   <Link
                     className={classes.socialItem}
